@@ -234,6 +234,7 @@ h2 {
 	line-height: 2;
 	text-transform: uppercase;
 	position: relative;
+	margin-bottom: 40px;
 }
 
 h2:before {
@@ -241,8 +242,8 @@ h2:before {
 	height: 2px;
 	width: 80px;
 	position: absolute;
-	left: 0;
-	bottom: 0;
+	left: -40px;
+	bottom: -10px;
 	background: #1968fc;
 	box-shadow: 0 2px 0 0 #d1e1fe;
 }
